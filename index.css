@@ -1,0 +1,126 @@
+
+body {
+    background-image: url("pic/indexbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    padding: 1rem;
+    background: rgb(99, 99, 99, .7);
+    width: 60%;
+    height:700pt;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black, inset 1px 1px 1px #cfcfcf;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+}
+.bekuldes {
+    width: 90%;
+    margin-bottom: 50px;
+}
+header {
+    color: #cfcfcf;
+    width: 100%;
+}
+.icon {
+    width: 50px;
+
+}
+.nev {
+    float: right;
+    margin-right: 15pt;
+    font-size: 23px;
+}
+.input-2 {
+    background: none;
+    color: #cfcfcf;
+    width: 45%;
+}
+.input-1 {
+    background: none;
+    color: #cfcfcf;
+    width: 100%;
+}
+.inputBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+button[name="submitBekuld"] {
+    width: 100px;
+    border-radius: 40px;
+    color: #cfcfcf;
+    background: none;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    border-radius: 40px;
+    color: #cfcfcf;
+    background: none;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+button:hover[name="submitBekuld"] {
+    transition: 0.01s;
+    transition-delay: 0.01s;
+    background: #E89611;
+    color: black;
+}
+button:hover {
+    transition: 0.01s;
+    transition-delay: 0.01s;
+    background: #cfcfcf;
+    color: black;
+}
+
+
+input::placeholder {
+    color: #cfcfcf;
+}
+.zenek {
+    width: 70%;
+    border-radius: 10px;
+   /* box-shadow: 1px 1px 1px black, inset 1px 1px 1px #cfcfcf;*/
+    padding: 20px;
+}
+table {
+    width: 100%;
+    color: #cfcfcf;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px black, inset 1px 1px 1px #cfcfcf;
+
+}
+
+.zenek table,
+.zenek th,
+.zenek td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+    
+}
+.zenek button{
+    width: auto;
+    border: none;
+}
+.center{
+    margin: auto;
+    align-self: center;
+    width: max-content;
+}
+.users{
+    margin: auto;
+    align-self: center;
+    width: max-content;
+}

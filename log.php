@@ -1,0 +1,9 @@
+<?php
+define("LOGFILE","logs/error.log");
+define("DBTYPE","mysql");
+define("DBHOST","localhost");
+define("DBNAME","szszcradio");
+define("DBUSER","root");
+define("DBPASS","");
+define("DBCHARSET","UTF8");
+?>
